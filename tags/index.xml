@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 阳志——个人博客</title>
+    <title>Tags on 阳志</title>
     <link>https://ouyziv.github.io/tags/</link>
-    <description>Recent content in Tags on 阳志——个人博客</description>
+    <description>Recent content in Tags on 阳志</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 22 Sep 2021 00:21:18 +0800</lastBuildDate><atom:link href="https://ouyziv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Aug 2021 00:21:18 +0800</lastBuildDate><atom:link href="https://ouyziv.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>个人</title>
-      <link>https://ouyziv.github.io/tags/%E4%B8%AA%E4%BA%BA/</link>
-      <pubDate>Wed, 22 Sep 2021 00:21:18 +0800</pubDate>
+      <title>传媒学</title>
+      <link>https://ouyziv.github.io/tags/%E4%BC%A0%E5%AA%92%E5%AD%A6/</link>
+      <pubDate>Thu, 05 Aug 2021 00:21:18 +0800</pubDate>
       
-      <guid>https://ouyziv.github.io/tags/%E4%B8%AA%E4%BA%BA/</guid>
+      <guid>https://ouyziv.github.io/tags/%E4%BC%A0%E5%AA%92%E5%AD%A6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>人文社科</title>
       <link>https://ouyziv.github.io/tags/%E4%BA%BA%E6%96%87%E7%A4%BE%E7%A7%91/</link>
-      <pubDate>Wed, 30 Jun 2021 00:21:18 +0800</pubDate>
+      <pubDate>Wed, 28 Jul 2021 00:21:18 +0800</pubDate>
       
       <guid>https://ouyziv.github.io/tags/%E4%BA%BA%E6%96%87%E7%A4%BE%E7%A7%91/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>传媒学</title>
-      <link>https://ouyziv.github.io/tags/%E4%BC%A0%E5%AA%92%E5%AD%A6/</link>
-      <pubDate>Mon, 28 Jun 2021 00:21:18 +0800</pubDate>
+      <title>室内设计</title>
+      <link>https://ouyziv.github.io/tags/%E5%AE%A4%E5%86%85%E8%AE%BE%E8%AE%A1/</link>
+      <pubDate>Mon, 15 Mar 2021 00:21:18 +0800</pubDate>
       
-      <guid>https://ouyziv.github.io/tags/%E4%BC%A0%E5%AA%92%E5%AD%A6/</guid>
+      <guid>https://ouyziv.github.io/tags/%E5%AE%A4%E5%86%85%E8%AE%BE%E8%AE%A1/</guid>
       <description></description>
     </item>
     
