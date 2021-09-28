@@ -2,8 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ouyziv.github.io/about/</loc>
+    <loc>https://ouyziv.github.io/page/</loc>
     <lastmod>2021-09-28T00:20:32+08:00</lastmod>
+  </url><url>
+    <loc>https://ouyziv.github.io/%E7%AE%80%E5%8E%86/</loc>
+    <lastmod>2021-09-28T00:20:32+08:00</lastmod>
+  </url><url>
+    <loc>https://ouyziv.github.io/</loc>
+    <lastmod>2021-09-28T00:20:32+08:00</lastmod>
+  </url><url>
+    <loc>https://ouyziv.github.io/categories/</loc>
+    <lastmod>2021-08-05T00:21:18+08:00</lastmod>
   </url><url>
     <loc>https://ouyziv.github.io/categories/</loc>
     <lastmod>2021-08-05T00:21:18+08:00</lastmod>
@@ -23,9 +32,6 @@
     <loc>https://ouyziv.github.io/categories/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2021-08-05T00:21:18+08:00</lastmod>
   </url><url>
-    <loc>https://ouyziv.github.io/</loc>
-    <lastmod>2021-08-05T00:21:18+08:00</lastmod>
-  </url><url>
     <loc>https://ouyziv.github.io/p/%E4%B8%96%E7%95%8C%E6%96%87%E6%98%8E%E5%8F%B2%E6%A6%82%E6%8B%AC%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2021-07-28T00:21:18+08:00</lastmod>
   </url><url>
@@ -41,6 +47,12 @@
     <loc>https://ouyziv.github.io/p/%E4%B8%AD%E5%9B%BD%E6%96%87%E5%AD%A6%E7%BB%8F%E5%85%B8%E4%BD%9C%E5%93%81/</loc>
     <lastmod>2021-06-30T00:21:18+08:00</lastmod>
   </url><url>
+    <loc>https://ouyziv.github.io/p/%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2021-05-27T00:21:18+08:00</lastmod>
+  </url><url>
+    <loc>https://ouyziv.github.io/tags/%E8%AE%BE%E8%AE%A1/</loc>
+    <lastmod>2021-05-27T00:21:18+08:00</lastmod>
+  </url><url>
     <loc>https://ouyziv.github.io/p/%E5%BB%BA%E7%AD%91%E5%AE%A4%E5%86%85%E8%AE%BE%E8%AE%A1140%E7%82%B9%E7%BF%BB%E8%AF%91/</loc>
     <lastmod>2021-03-15T00:21:18+08:00</lastmod>
   </url><url>
@@ -49,5 +61,27 @@
   </url><url>
     <loc>https://ouyziv.github.io/categories/%E7%BF%BB%E8%AF%91/</loc>
     <lastmod>2021-03-15T00:21:18+08:00</lastmod>
+  </url><url>
+    <loc>https://ouyziv.github.io/p/%E5%A6%82%E6%A2%A6%E4%BB%A4/</loc>
+    <lastmod>2021-03-06T00:21:18+08:00</lastmod>
+  </url><url>
+    <loc>https://ouyziv.github.io/tags/%E6%96%87%E5%AD%A6/</loc>
+    <lastmod>2021-03-06T00:21:18+08:00</lastmod>
+  </url><url>
+    <loc>https://ouyziv.github.io/categories/%E8%AF%97%E4%BD%9C/</loc>
+    <lastmod>2021-03-06T00:21:18+08:00</lastmod>
+  </url><url>
+    <loc>https://ouyziv.github.io/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ouyziv.github.io/search/</loc>
+  </url><url>
+    <loc>https://ouyziv.github.io/categories/%E7%AC%94%E8%AE%B0/</loc>
+  </url><url>
+    <loc>https://ouyziv.github.io/categories/%E7%BF%BB%E8%AF%91/</loc>
+  </url><url>
+    <loc>https://ouyziv.github.io/categories/%E8%AF%97%E4%BD%9C/</loc>
+  </url><url>
+    <loc>https://ouyziv.github.io/categories/%E8%B0%83%E6%9F%A5/</loc>
   </url>
 </urlset>
