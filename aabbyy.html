@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="垂直搜索，导航，最棒">
+    <meta name="description" content="争做最棒的垂直引导搜索网站">
+    <link rel="SHORTCUT ICON" href="https://static01.imgkr.com/temp/31593afce65243318e88c988609e7217.ico">
+    　　
+    <link rel=" BOOKMARK" href="https://static01.imgkr.com/temp/31593afce65243318e88c988609e7217.ico">
+    <title>ABuYao_垂直搜索</title>
+    <script>
+        window.onresize = function () {
+            var h = window.innerHeight;
+            document.getElementById("divyi").style.height = h + "px";
+        }
+        window.onload = function () {
+            var h = window.innerHeight;
+            document.getElementById("divyi").style.height = h + "px";
+        }
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+        }
+
+        body {
+            background: #f7f7f7;
+            font-family: 'Times New Roman', serif;
+        }
+
+        div {
+            display: block;
+        }
+
+        a {
+            font-family: inherit;
+            text-decoration: none;
+            color: rgb(124, 190, 168);
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .shangding {
+            height: 30%;
+        }
+
+        .logoshang {
+            height: 55%;
+        }
+
+        .logokuang {
+            width: 112px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 30%;
+        }
+
+        .logo {
+            max-width: 112px;
+            height: auto;
+            margin-top: auto;
+        }
+
+        .buyao {
+            padding: 0 12px;
+            font-weight: 600;
+            border-radius: 4px;
+            /* opacity: 0; */
+            display: block;
+            font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+            opacity: 0;
+            background-color: rgba(138, 138, 138, 0.9);
+            line-height: 1.8em;
+            color: white;
+            text-align: center;
+
+            transition: opacity .3s ease-in-out 0s;
+        }
+
+        .logokuang:hover .buyao {
+            opacity: 1;
+        }
+
+
+        h1 {
+            text-align: center;
+            font-size: 250%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .zhuti{
+            height: 60%;
+        }
+
+        .sousuokuang {
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            float: none;
+            padding: 1.3em .8em 1em;
+        }
+
+        .zhichikuang {
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .sousuo {
+            width: auto;
+            margin-left: auto;
+            margin-right: auto;
+            box-sizing: border-box;
+            border-radius: 5px;
+            display: block;
+            position: relative;
+            height: 2.8em;
+            background-color: #fff;
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            box-shadow: 0 2px 3px rgba(0, 0, 0, 0.06);
+            padding-left: .75em;
+            padding-right: 6.5em;
+        }
+
+        .jianru {
+            font-size: 1.1em;
+            font-weight: normal;
+            display: block;
+            width: 100%;
+            background: none;
+            outline: none;
+            border: none;
+            padding: 0;
+            height: 2.5em;
+            z-index: 1;
+            position: relative;
+            top: -1px;
+
+        }
+
+        .anniu {
+            border-radius: 0 5px 5px 0;
+            border-left: 1px solid rgba(0, 0, 0, 0.15);
+            min-width: 26px;
+            color: #999;
+            font-size: 1.25em;
+            font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+            padding: 0 .6em;
+            min-height: 1.5em;
+            background-color: transparent;
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            box-sizing: content-box;
+            width: 2.5em;
+            display: block;
+            cursor: pointer;
+            text-align: center;
+            height: auto;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: auto;
+            margin: auto;
+            z-index: 2;
+        }
+
+        .anniu:hover {
+            background-color: rgb(124, 190, 168);
+            color: rgb(254, 255, 246);
+        }
+
+        .zhengzuo {
+            position: relative;
+            line-height: 1.4;
+            font-size: 1.2em;
+            padding: 0;
+            margin: .5em auto;
+            text-align: center;
+            color: #9a9a9a;
+        }
+
+
+        .xiala1 {
+            box-sizing: border-box;
+            background-color: transparent;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+            border-radius: 1px;
+            color: #999;
+            font-family: Helvetica, sans-serif;
+            font-size: 18px;
+            margin-bottom: 6px;
+            padding-left: 10px;
+            height: 2.2em;
+
+            font-weight: 600;
+            width: auto;
+            cursor: pointer;
+            text-align: center;
+            position: relative;
+            margin-right: 5px;
+            font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif;
+        }
+
+        .xiala1:hover {
+            background-color: teal;
+            color: white;
+            border-radius: 4px;
+        }
+
+        option {
+            text-align: center;
+        }
+
+        #shiyan {
+
+            position: relative;
+            line-height: 1.4;
+            font-size: 1.2em;
+            padding: 0;
+            text-align: center;
+            color: #9a9a9a;
+        }
+
+        .xiading {
+            height: 320px;
+        }
+
+        .beian {
+            line-height: 1.4;
+            font-size: 1em;
+            padding: 0.5em;
+            text-align: center;
+            color: #9a9a9a !important;
+            /* font-family: 'Microsoft YaHei', Arial, Helvetica, sans-serif; */
+        }
+    </style>
+
+
+
+    <script>
+        var wangzhanmen = {
+            "0": {
+                "chacha": "https://cn.bing.com/search?q=%neirong%&qs=n&form=QBLH&sp=-1&pq=&sc=0-0&sk=&cvid=2C3D1228503641E1B5E423366FAB6BA1",
+                "home": "https://cn.bing.com/?mkt=zh-cn"
+            },
+            "超多还行": {
+                "chacha": "https://jingzhunyun.com/search.php?q=%neirong%",
+                "home": "https://jingzhunyun.com/"
+            },
+            "多但是乱": {
+                "chacha": "https://www.toolnb.com/Home/Search/index.html?type=all&search=%neirong%&type_id=",
+                "home": "https://www.toolnb.com/"
+            },
+            "贴切生活": {
+                "chacha": "https://cn.bing.com/search?q=site%3Auutool.cn/+%neirong%",
+                "home": "https://uutool.cn/"
+            },
+            "知乎": {
+                "chacha": "https://www.zhihu.com/search?type=content&q=%neirong%",
+                "home": "https://www.zhihu.com/hot"
+            },
+            "百度知道": {
+                "chacha": "https://zhidao.baidu.com/search?lm=0&rn=10&pn=0&fr=search&ie=gbk&word=%neirong%",
+                "home": "https://zhidao.baidu.com/"
+            },
+            "Wikihow": {
+                "chacha": "https://zh.wikihow.com/wikiHowTo?search=%neirong%",
+                "home": "https://zh.wikihow.com/%E9%A6%96%E9%A1%B5"
+            },
+            "百度贴吧": {
+                "chacha": "https://tieba.baidu.com/f?ie=utf-8&kw=%neirong%&fr=search",
+                "home": "https://tieba.baidu.com/index.html"
+            },
+            "Wiki百科": {
+                "chacha": "https://zh.wikipedia.org/w/index.php?search=%neirong%&title=Special%3A%E6%90%9C%E7%B4%A2&go=%E5%89%8D%E5%BE%80&ns0=1",
+                "home": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5"
+            },
+            "百度百科": {
+                "chacha": "https://baike.baidu.com/search/none?word=%neirong%&pn=0&rn=10&enc=utf8",
+                "home": "https://baike.baidu.com/"
+            },
+            "MBA智库": {
+                "chacha": "https://wiki.mbalib.com/wiki/Special:Search?search=%neirong%&go=%E8%BF%9B%E5%85%A5",
+                "home": "https://www.mbalib.com/"
+            },
+            "默沙东": {
+                "chacha": "https://www.msdmanuals.com/zh/home/SearchResults?query=%neirong%",
+                "home": "https://www.msdmanuals.com/zh/home"
+            },
+            "万方临床": {
+                "chacha": "http://lczl.med.wanfangdata.com.cn/Home/Search?q=%neirong%&type=Disease",
+                "home": "http://lczl.med.wanfangdata.com.cn/"
+            },
+            "医药百科": {
+                "chacha": "https://www.wiki8.com/search?q=%neirong%&d=4&ie=utf-8",
+                "home": "https://www.wiki8.com/"
+            },
+            "医药百科": {
+                "chacha": "https://search.dxy.cn/?recommend=false&dt=15-13-2&agent=Chrome-80.0.3987.132&words=%neirong%&dw=%E5%88%A9%E5%B0%BF%E5%89%82%E5%BA%94%E7%94%A8%E8%B6%85%E5%BC%BA%E6%94%BB%E7%95%A5",
+                "home": "http://www.dxy.cn/"
+            },
+            "微博": {
+                "chacha": "https://s.weibo.com/weibo/%neirong%?topnav=1&wvr=6&b=1",
+                "home": "https://weibo.com/?topnav=1&mod=logo"
+            },
+            "南方周末": {
+                "chacha": "http://www.infzm.com/search?k=%neirong%",
+                "home": "http://www.infzm.com/"
+            },
+            "马蜂窝": {
+                "chacha": "https://www.mafengwo.cn/search/q.php?q=%neirong%&seid=8371AAD2-FD48-43A8-89CE-626CC1888984",
+                "home": "https://www.mafengwo.cn/"
+            },
+
+
+
+
+
+
+            "百度学术": {
+                "chacha": "https://xueshu.baidu.com/s?wd=%neirong%&rsv_bp=0&tn=SE_baiduxueshu_c1gjeupa&rsv_spt=3&ie=utf-8&f=8&rsv_sug2=0&sc_f_para=sc_tasktype%3D%7BfirstSimpleSearch%7D",
+                "home": "https://xueshu.baidu.com/"
+            },
+            "万方": {
+                "chacha": "http://www.wanfangdata.com.cn/search/searchList.do?searchType=all&showType=detail&pageSize=20&searchWord=%neirong%&isTriggerTag=",
+                "home": "http://www.wanfangdata.com.cn/index.html"
+            },
+            "谷歌学术镜像": {
+                "chacha": "https://scholar.google.com.hk/scholar?hl=zh-CN&as_sdt=0%2C5&q=%neirong%&btnG=",
+                "home": "http://so.hiqq.com.cn/"
+            },
+            "豆瓣读书": {
+                "chacha": "https://search.douban.com/book/subject_search?search_text=%neirong%&cat=1001",
+                "home": "https://book.douban.com/"
+            },
+            "B站": {
+                "chacha": "https://search.bilibili.com/all?keyword=%neirong%",
+                "home": "https://www.bilibili.com/"
+            },
+            "大学慕课": {
+                "chacha": "https://www.icourse163.org/search.htm?search=%neirong%#/",
+                "home": "https://www.icourse163.org/"
+            },
+            "网易云课堂": {
+                "chacha": "https://study.163.com/courses-search?keyword=%neirong%",
+                "home": "https://study.163.com/"
+            },
+            "百度翻译中-英": {
+                "chacha": "https://fanyi.baidu.com/#zh/en/%neirong%",
+                "home": "https://fanyi.baidu.com/"
+            },
+            "百度翻译英-中": {
+                "chacha": "https://fanyi.baidu.com/#en/zh/%neirong%",
+                "home": "https://fanyi.baidu.com/"
+            },
+
+
+
+
+
+            "3DM": {
+                "chacha": "https://so.3dmgame.com/?keyword=%neirong%&subsearch=1&type=1",
+                "home": "https://www.3dmgame.com/"
+            },
+            "游侠网": {
+                "chacha": "https://so.ali213.net/s/c?keyword=%neirong%&group=0",
+                "home": "https://www.ali213.net/"
+            },
+            "淘宝": {
+                "chacha": "http://s.taobao.com/search?q=%neirong%",
+                "home": "http://taobao.com"
+            },
+            "京东": {
+                "chacha": "https://search.jd.com/Search?keyword=%neirong%&enc=utf-8&wq=00&pvid=93669b8115c548f9ad56d29546642225",
+                "home": "https://www.jd.com/"
+            },
+            "豆瓣电影": {
+                "chacha": "https://search.douban.com/movie/subject_search?search_text=%neirong%&cat=1002",
+                "home": "https://movie.douban.com/"
+            },
+            "neets": {
+                "chacha": "https://neets.cc/search?key=%neirong%",
+                "home": "https://neets.cc/"
+            },
+            "网易云": {
+                "chacha": "https://music.163.com/#/search/m/?s=%neirong%&type=1",
+                "home": "https://music.163.com//"
+            },
+            "QQ": {
+                "chacha": "https://y.qq.com/portal/search.html#page=1&searchid=1&remoteplace=txt.yqq.top&t=song&w=%neirong%",
+                "home": "https://y.qq.com/"
+            },
+
+
+
+
+
+            "pexel": {
+                "chacha": "https://www.pexels.com/search/%neirong%/",
+                "home": "https://www.pexels.com/"
+            },
+            "花瓣": {
+                "chacha": "https://huaban.com/search/?q=%neirong%",
+                "home": "https://huaban.com/"
+            },
+            "3d模型库": {
+                "chacha": "https://www.3dxia.com/3dmoxing/%neirong%.html",
+                "home": "https://www.3dxia.com/"
+            },
+            "3d溜溜网": {
+                "chacha": "https://so.3d66.com/res/%neirong%_1_1.html",
+                "home": "https://www.3d66.com/model.html"
+            },
+            "textures": {
+                "chacha": "https://www.textures.com/search?q=%neirong%",
+                "home": "https://www.textures.com/"
+            },
+            "texture haven": {
+                "chacha": "https://texturehaven.com/textures/?o=popular&c=all&a=all&s=%neirong%",
+                "home": "https://texturehaven.com/textures/"
+            },
+
+
+
+            "百度": {
+                "chacha": "http://www.baidu.com/s?wd=%neirong%",
+                "home": "https://www.baidu.com/"
+            },
+            "Google": {
+                "chacha": "https://www.google.com/#newwindow=1&safe=strict&q=%neirong%",
+                "home": "https://www.google.com"
+            },
+
+
+            // 更新2020.5.22
+
+            "mindmaster": {
+                "chacha": "https://mm.edrawsoft.cn/community/search/1?keyword=%neirong%",
+                "home": "https://mm.edrawsoft.cn/community/show/1"
+            },
+            "mindmeister": {
+                "chacha": "https://www.mindmeister.com/zh/mind-map-examples?utf8=%E2%9C%93&category=&language=&query=%neirong%",
+                "home": "https://www.mindmeister.com/zh/mind-map-examples"
+            },
+            "王建文": {
+                "chacha": "http://www.siweinaotu.cn/search.php?mod=forum&searchid=382974&orderby=lastpost&ascdesc=desc&searchsubmit=yes&kw=%neirong%",
+                "home": "http://www.siweinaotu.cn/"
+            },
+            "Processon": {
+                "chacha": "https://www.processon.com/popular?criterion=%neirong%",
+                "home": "https://www.processon.com/diagrams/new#template"
+            },
+            "悟空问答": {
+                "chacha": "https://www.wukong.com/search/?keyword=%neirong%",
+                "home": "https://www.wukong.com/"
+            },
+            "LoreFree": {
+                "chacha": "https://ebook2.lorefree.com/site/index?s=%neirong%",
+                "home": "https://ebook2.lorefree.com/"
+            },
+            "字体": {
+                "chacha": "https://www.fontke.com/search/font/%neirong%/",
+                "home": "https://www.fontke.com/"
+            },
+            "诗词": {
+                "chacha": "http://www.shicimingju.com/chaxun/all/%neirong%",
+                "home": "http://www.shicimingju.com/"
+            },
+            "萌娘百科": {
+                "chacha": "https://zh.moegirl.org/index.php?search=%neirong%&title=Special:%E6%90%9C%E7%B4%A2&go=%E5%89%8D%E5%BE%80&searchToken=bis3es9uoq3clec7wnanl4c5f",
+                "home": "https://zh.moegirl.org/Mainpage"
+            },
+            "恩京的书屋": {
+                "chacha": "https://www.enjing.com/?s=%neirong%",
+                "home": "https://www.enjing.com/"
+            },
+            "文学迷小说": {
+                "chacha": "https://www.wenxuemi6.com/search.php?q=%neirong%",
+                "home": "https://www.wenxuemi6.com/"
+            },
+            "公众号": {
+                "chacha": "https://weixin.sogou.com/weixin?type=2&query=%neirong%",
+                "home": "https://weixin.sogou.com/"
+            },
+            "简书": {
+                "chacha": "https://www.jianshu.com/search?q=%neirong%&page=1&type=note",
+                "home": "https://www.jianshu.com/"
+            },
+            "Steam": {
+                "chacha": "https://store.steampowered.com/search/?term=%neirong%",
+                "home": "https://store.steampowered.com/"
+            },
+            // "企查查": {
+            //     "chacha": "https://www.qcc.com/search?key=%neirong%",
+            //     "home": "https://www.qcc.com/"
+            // },
+            // "天眼查": {
+            //     "chacha": "https://www.tianyancha.com/search?key=%neirong%",
+            //     "home": "https://www.tianyancha.com/"
+            // },
+
+
+
+
+
+
+        }
+        function chacha() {
+
+            var neirong = document.getElementById("nr").value;
+
+            if (neirong == "") {
+                window.open(wangzhanmen[document.getElementById("mulusan").value].home);
+            }
+            else {
+                var url = wangzhanmen[document.getElementById("mulusan").value].chacha;
+                var url = url.replace("%neirong%", neirong);
+                // alert(url)
+                window.open(url);
+            }
+        }
+
+        hejiyi = new Object();
+        hejiyi["生活"] = new Array("经验", "百科", "医药", "新闻", "工具", "旅游");
+        hejiyi["学习"] = new Array("论文", "书籍", "视频", "翻译", "脑图", "其他");
+        hejiyi["娱乐"] = new Array("游戏", "购物", "影音", "音乐");
+        hejiyi["设计"] = new Array("图片", "贴图", "模型", "其他");
+
+
+        hejier = new Object();
+        hejier["经验"] = new Array("知乎", "简书", "悟空问答", "百度知道", "Wikihow", "百度贴吧");
+        hejier["百科"] = new Array("Wiki百科", "百度百科", "MBA智库", "萌娘百科");
+        hejier["医药"] = new Array("默沙东", "万方临床", "医药百科", "丁香园");
+        hejier["新闻"] = new Array("微博", "南方周末", "公众号");
+        hejier["工具"] = new Array("超多还行", "多但是乱", "贴切生活");
+        hejier["旅游"] = new Array("马蜂窝");
+
+        hejier["论文"] = new Array("百度学术", "万方", "谷歌学术镜像");
+        hejier["书籍"] = new Array("豆瓣读书", "LoreFree", "恩京的书屋", "文学迷小说");
+        hejier["视频"] = new Array("B站", "大学慕课", "网易云课堂");
+        hejier["翻译"] = new Array("百度翻译中-英", "百度翻译英-中");
+        hejier["脑图"] = new Array("mindmaster", "Processon", "王建文", "mindmeister");
+        hejier["其他"] = new Array("诗词");
+
+        hejier["游戏"] = new Array("Steam", "3DM", "游侠网");
+        hejier["购物"] = new Array("淘宝", "京东");
+        hejier["影音"] = new Array("豆瓣电影", "neets");
+        hejier["音乐"] = new Array("网易云", "QQ");
+
+        hejier["图片"] = new Array("pexel", "花瓣");
+        hejier["模型"] = new Array("3d模型库", "3d溜溜网");
+        hejier["贴图"] = new Array("textures", "texture haven");
+        hejier["其他"] = new Array("字体");
+
+        function gai_muluer() {
+            var yj, ej;
+            var q, qq;
+
+            yj = document.getElementById("muluyi").value;
+            // ej = document.getElementById("muluer").value;
+
+            // erji.length=1;
+            document.getElementById("muluer").options.length = 1;
+
+            document.getElementById("mulusan").options.length = 1;
+
+            // alert(hejiyi[yj])
+            if (yj == "0") return;
+            // if(typeof(hejiyi[yj])=="undefined")return;
+
+            for (q = 0; q < hejiyi[yj].length; q++) {
+                qq = q + 1
+                document.getElementById("muluer").options[qq] = new Option();
+                document.getElementById("muluer").options[qq].text = hejiyi[yj][q];
+                document.getElementById("muluer").options[qq].value = hejiyi[yj][q];
+            }
+
+        }
+        function gai_mulusan() {
+            var sj, wj;
+            var o, oo;
+
+            sj = document.getElementById("muluer").value;
+            // wj = document.getElementById("mulusan").value;
+
+            // erji.length=1;
+            // alert(typeof (sj))
+            // alert(hejier[sj])
+            document.getElementById("mulusan").options.length = 1;
+
+            if (sj == "0") return;
+            if (typeof (hejier[sj]) == "undefined") return;
+
+            for (o = 0; o < hejier[sj].length; o++) {
+                oo = o + 1
+                document.getElementById("mulusan").options[oo] = new Option();
+                document.getElementById("mulusan").options[oo].text = hejier[sj][o];
+                document.getElementById("mulusan").options[oo].value = hejier[sj][o];
+            }
+        }
+        function gogo() {
+            if (event.keyCode == 13) {
+                chacha()
+            }
+        }
+
+
+    </script>
+</head>
+
+<body onkeydown="gogo()">
+    <div id="divyi">
+
+        <div class="shangding">
+            <div class="logoshang"></div>
+            <div class="logokuang">
+
+                <a href="index.html"><img src="https://static01.imgkr.com/temp/0b100ccf2d0843eab924bdc347ee3ade.png" alt="DeLang" class="logo"></a>
+                <span class="buyao">不要！</span>
+            </div>
+            <!-- <h1>ABuYao</h1> -->
+        </div>
+        <div class="zhuti">
+
+            <div class="sousuokuang">
+                <div class="xiala">
+
+                    <select name="yiji" class="xiala1" onChange="gai_muluer();" id="muluyi">
+                        <option value="0">选择</option>
+                        <option value="生活">生活</option>
+                        <option value="学习">学习</option>
+                        <option value="娱乐">娱乐</option>
+                        <option value="设计">设计</option>
+                    </select>
+
+                    <select name="erji" class="xiala1" onChange="gai_mulusan();" id="muluer">
+                        <option value="0">选择</option>
+                    </select>
+
+                    <select name="sanji" class="xiala1" id="mulusan">
+                        <option value="0" id="fff">默认必应</option>
+                        <option value="百度">百度</option>
+                        <option value="Google">Google</option>
+                    </select>
+
+                </div>
+                <div class="sousuo">
+
+                    <input type="text" class="jianru" id="nr" autocomplete="off" autofocus="autofocus">
+                    <input type="button" class="anniu" value="搜索" onclick="chacha()" id="chong">
+
+                </div>
+            </div>
+            <div class="zhichikuang">
+                <p class="zhengzuo">先选择要在哪个网站搜索，再输入内容搜索<br />
+                </p>
+            </div>
+        </div>
+        <div class="xiamian">
+            <p id="shiyan">争做最棒的垂直引导搜索网站</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
