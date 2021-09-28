@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>设计 on 阳志</title>
+    <link>https://ouyziv.github.io/tags/%E8%AE%BE%E8%AE%A1/</link>
+    <description>Recent content in 设计 on 阳志</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 27 May 2021 00:21:18 +0800</lastBuildDate><atom:link href="https://ouyziv.github.io/tags/%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>交互设计笔记</title>
+      <link>https://ouyziv.github.io/p/%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Thu, 27 May 2021 00:21:18 +0800</pubDate>
+      
+      <guid>https://ouyziv.github.io/p/%E4%BA%A4%E4%BA%92%E8%AE%BE%E8%AE%A1%E7%AC%94%E8%AE%B0/</guid>
+      <description>交互设计概论 交互设计是一个基于人的活动和行为的设计领域,它主要探讨交互产品(系统)的组成,交互设计
+的主要原则、流程、方法和评估技术。
+人感受操控，机控制界面反应
+设计范围四层次：符号，产品，交互，系统
+更多的关注人的行为而不是机的界面
+动作主意图，附属信息！
+ 交互设计时间顺序 设计调研（用户（显/潜在用户）研究），概念设计，原型构建，评估测试。
+需求，概念，细节，测评，规范
+ 交互设计逻辑层次 C 层次（愉悦性）Emotion  反馈（感受听看触） 探讨上下文对话，任务流程 使用前中后 成就   情感、信仰、喜好、认知印象、生理和心理反应、行为和成就等
+ B 层次（可理解）Usability  容错机制 写出规则 专家与傻蛋 预测用户的理解 规则复杂程度  A 层次（可用性）Usefulness  效率   交互设计设计内容  使用行为 任务流程 信息架构   交互设计泛定义 以实现用户/消费者的目标 (衣、食、住、行、教育、娱乐、社交、健康、公共管理等等)为导向,
+聚焦人的行为 (多目标、多任务、互动性),
+定义、设计支持其行为的媒介形式, 该媒介(工具)可能是产品(硬件、软件)、环境、广告、包装、互动装置、艺术品或系统等等。
+  设计学科关系 基础学科  心理学  设计方法学科  人因学 符号学 交互学 信息学（信息的组织，标识，导航，检索） 可视化（信息设计）  应用学科  产品 软件 网页 平面 室内   交互设计原理 概念模型（心智/心理） 心理模型(Mental Model),又称概念模型,它是用来描述人类一系列认知能力的方法,是描述人类如何解决问题,以及如何进行演绎推理的思维模式。人们会根据自己的经验、训练和习惯,对人、物品、环境、接触到的事物等形成其概念模型。</description>
+    </item>
+    
+  </channel>
+</rss>
